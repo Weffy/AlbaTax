@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pongsema.albatax" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+<!--
+v.1:    Basic functionality.  Four of the six imageButtons are working.  Waiting for website to get setup on web server so I can use a web intent
+        for the last two buttons (that link to forms
+v.1.1:  Removed settings button from overflow menu.  replaced with a option to show the business address and contact info via toast.
+v.2:    Didn't realize that google forms had a share link in addition to the html embed src.  all six buttons now fully functional.
+v.2.1:  Adding social media functionality
+-->

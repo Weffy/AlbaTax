@@ -1,0 +1,143 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/hello_fragment"
+    tools:context=".HelloFragment"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_resized_2"
+        android:scaleType="fitXY"
+        />
+<!--
+    <TextView
+        android:text="@string/greetings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/albaBlue"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:textSize="40dp" />
+
+        -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_text"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/federal" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/nys" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/contact" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/directions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/tax_class" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/notary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20px"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/instagram" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="true"
+            android:layout_weight="1"
+            android:src="@drawable/whatsapp" />
+
+    </LinearLayout>
+</LinearLayout>

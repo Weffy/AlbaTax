@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alba Tax Solutions</string>
+    <string name="action_settings">View Contact Information</string>
+    <string name="greetings">Alba Multiservice</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="albaBlue">#0080FF</color>
+</resources>
