@@ -22,5 +22,5 @@ The images in the drawable dir were made to fit the phone we used to present wit
 I have another version that also fit my Kindle (larger images).
 
 things left to do: 
-1) add larger images to drawable dir
-2) http://developer.android.com/guide/practices/screens-distribution.html
+- add larger images to drawable dir
+- http://developer.android.com/guide/practices/screens-distribution.html
